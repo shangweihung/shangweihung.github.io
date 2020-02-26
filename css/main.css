@@ -53,7 +53,7 @@
 }
 
 p.skill {
-    font-size: 20px;
+    font-size: 16px;
     color: #495057;
   }
   
@@ -80,5 +80,5 @@ span.label {
 
 .tab {
     display: inline-block;
-    margin-left: 20px;
+    margin-left: 50px;
 }
