@@ -53,7 +53,7 @@
 }
 
 p.skill {
-    font-size: 26px;
+    font-size: 20px;
     color: #495057;
   }
   
@@ -76,4 +76,9 @@ span.label {
     white-space: nowrap;
     vertical-align: baseline;
     border-radius: .25em;
+}
+
+.tab {
+    display: inline-block;
+    margin-left: 20px;
 }
