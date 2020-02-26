@@ -1,0 +1,16 @@
+.tag {
+    padding-bottom: 5px;
+    font-family: Arial;
+}
+
+.conf {
+font-size: 16px !important;
+font-style: italic !important;
+margin: 5px auto 0px;
+}
+
+.paper {
+font-size: 18px;
+font-weight: bold;
+color: #00337D;
+}
