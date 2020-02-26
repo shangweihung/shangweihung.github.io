@@ -30,27 +30,27 @@ h6 {
 }
 
 h1 {
-  font-size: 6rem;
+  font-size: 7rem;
   line-height: 5.5rem;
 }
 
 h2 {
-  font-size: 3.5rem;
+  font-size: 4.0rem;
 }
 
 h3 {
-  font-size: 2rem;
+  font-size: 2.5rem;
 }
 
 
 
 p.lead {
-  font-size: 1.15rem;
+  font-size: 1.5rem;
   font-weight: 400;
 }
 
-.skill {
-  font-size: 3.0rem;
+p.skill {
+  font-size: 3.5rem;
   color: #495057;
 }
 
@@ -58,13 +58,13 @@ p.lead {
   text-transform: uppercase;
   font-weight: 500;
   font-family: 'Saira Extra Condensed', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
-  font-size: 3.0rem;
+  font-size: 3.5rem;
 }
 
 .subheading2 {
   font-weight: 500;
   font-family: 'Saira Extra Condensed', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
-  font-size: 3.0rem;
+  font-size: 3.5rem;
 }
 
 .social-icons a {
