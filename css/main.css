@@ -13,3 +13,23 @@
     color: #343a40;
 }
 
+.tag {
+    padding-bottom: 5px;
+    font-family: Arial;
+}
+
+span.label-success {
+    background-color: #5cb85c;
+}
+span.label {
+    display: inline;
+    padding: .2em .6em .3em;
+    font-size: 75%;
+    font-weight: 700;
+    line-height: 1;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: .25em;
+}
