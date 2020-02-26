@@ -13,6 +13,14 @@
     color: #343a40;
 }
 
+.project_title {
+    font-family: 'Saira Extra Condensed', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+    font-size: 30px;
+    font-weight: 500;
+    color: #343a40;
+}
+
+
 .tag {
     padding-bottom: 5px;
     font-family: Arial;
