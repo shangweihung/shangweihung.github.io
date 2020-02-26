@@ -94,3 +94,7 @@ span.label {
     display: inline-block;
     margin-left: 50px;
 }
+
+p.footer{
+    color: #fff;
+}
