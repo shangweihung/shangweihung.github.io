@@ -96,20 +96,26 @@ span.label {
 }
 
 
-@media (min-width: 576px) {
-    img {
-      width: 35%;
-    }
-  }
-
+/* xs */
+img {
+    width: 100px;
+    height: auto;
+}
+/* sm */
 @media (min-width: 768px) {
-img {
-    width: 50%;
+    img {
+        width: 150px;
+    }
 }
-}
-
+/* md */
 @media (min-width: 992px) {
-img {
-    width: 60%;
+    img {
+        width: 200px;
+    }
 }
+/* lg */
+@media (min-width: 1200px) {
+    img {
+        width: 250px;
+    }
 }
