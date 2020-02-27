@@ -98,6 +98,18 @@ span.label {
 
 @media (min-width: 576px) {
     img {
-      width: 30%;
+      width: 35%;
     }
   }
+
+@media (min-width: 768px) {
+img {
+    width: 50%;
+}
+}
+
+@media (min-width: 992px) {
+img {
+    width: 60%;
+}
+}
