@@ -104,18 +104,18 @@ img {
 /* sm */
 @media (min-width: 768px) {
     img {
-        width: 60%;
+        width: 65%;
     }
 }
 /* md */
 @media (min-width: 992px) {
     img {
-        width: 65%;
+        width: 70%;
     }
 }
 /* lg */
 @media (min-width: 1200px) {
     img {
-        width: 70%;
+        width: 75%;
     }
 }
