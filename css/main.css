@@ -96,6 +96,8 @@ span.label {
 }
 
 
-.img-responsive.img-center {
-    margin: 0 auto;
-}
+@media (min-width: 576px) {
+    img {
+      width: 30%;
+    }
+  }
