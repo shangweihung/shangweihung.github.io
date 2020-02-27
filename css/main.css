@@ -98,19 +98,19 @@ span.label {
 
 /* xs */
 img {
-    width: 55%;
+    width: 70%;
     height: auto;
 }
 /* sm */
 @media (min-width: 768px) {
     img {
-        width: 65%;
+        width: 75%;
     }
 }
 /* md */
 @media (min-width: 992px) {
     img {
-        width: 70%;
+        width: 75%;
     }
 }
 /* lg */
