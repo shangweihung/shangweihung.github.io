@@ -116,10 +116,6 @@ img {
 /* lg */
 @media (min-width: 1200px) {
     img {
-        width: 75%;
+        width: 80%;
     }
-}
-
-.paper{
-    width: 600%;
 }
