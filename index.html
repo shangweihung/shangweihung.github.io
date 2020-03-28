@@ -1,490 +1,106 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <meta name="description" content="Shang Wei Blog">
-        <meta name="author" content="Shang-Wei">
-        <title style="font-family: Saira Extra Condensed">Shang-Wei's Blog</title>
 
-        <!-- Bootstrap core CSS -->
-        <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<!-- Tutorial URL: http://sixrevisions.com/css/responsive-background-image/ -->
 
-        <!-- Custom fonts for this template -->
-        <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet">
-        <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Shang-Wei's Blog</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="author" content="Six Revisions">
+  <meta name="description" content="How to use the CSS background-size property to make an image fully span the entire viewport.">
+  <link rel="icon" href="http://sixrevisions.com/favicon.ico" type="image/x-icon" />
 
-        <!-- Custom styles for this template -->
-        <link href="css/resume.min.css" rel="stylesheet">
-        <link href="css/main.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet">
 
-    </head>
+  <!-- Not required: presentational-only.css only contains CSS for prettifying the demo -->
+  <link rel="stylesheet" href="css/presentational-only.css">
+  <link rel="stylesheet" href="css/responsive-full-background-image.css">
+  <!-- responsive-full-background-image.css stylesheet contains the code you want -->
 
-    <body id="page-top">
-        <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
-            <a class="navbar-brand js-scroll-trigger" href="#page-top">
-                <span class="d-block d-lg-none">Shang-Wei's Blog</span>
-                <span class="d-none d-lg-block">
-                    <img width = "250%" class="img-fluid img-profile rounded-circle mx-auto mb-2" src="img/profile.jpg" alt="">
-                </span>
-            </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+  <link href="https://fonts.googleapis.com/css?family=Raleway:200,100,400" rel="stylesheet" type="text/css" />
 
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link js-scroll-trigger" href="#about">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link js-scroll-trigger" href="#education">Education</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link js-scroll-trigger" href="#experience">Experience</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link js-scroll-trigger" href="#skills">Skills</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link js-scroll-trigger" href="#projects">Projects</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link js-scroll-trigger" href="#publication">Publication</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link js-scroll-trigger" href="#extra">Leadership</a>
-                    </li>
-                </ul>
-            </div>
-            
-        </nav>
-
-        <div class="container-fluid p-0">
-
-            <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="about">
-              <div class="w-100">
-                <h1 class="mb-0">SHANG-WEI HUNG
-                  <span class="text-primary">(Alan)</span>
-                </h1> 
-                <div class="subheading2 mb-5">1 Miramar St., La Jolla, CA, US.· (619) 548-0796 ·
-                  <a href="mailto:shung@eng.ucsd.edu">shung@eng.ucsd.edu</a>
-                </div>
-                <p class="lead mb-1">I am currently MS Student in ECE Machine Learning and Data Science at UC San Diego. I am actively seeking 2020 Full-Time job opportunity relating to Software Development and Machine Learning/ Deep Learning.</p>
-                <p class="lead mb-1">I have hands-on experiences in Machine Learning, Deep Learning and Data Analysis, and one publication on Computer vision/ Semantic Segmentation on 2019 IEEE ICIP. Currently, I am learning some web development by myself and the idea and results are demonstrated in my github. </p>
-                <p class="lead mb-1">Comfortable with programming in Python, C/C++ and Java.</p>
-                <div class="social-icons">
-                  <a href="https://www.linkedin.com/in/shangweihung/">
-                    <i class="fab fa-linkedin-in"></i>
-                  </a>
-                  <a href="https://github.com/shangweihung">
-                    <i class="fab fa-github"></i>
-                  </a>
-                  <a href="https://www.facebook.com/profile.php?id=100001275439421">
-                    <i class="fab fa-facebook-f"></i>
-                  </a>
-                  <a href="files/Shang_Wei_Hung.pdf">
-                    <i class="fas fa-portrait"></i>
-                  </a>
-                </div>
-              </div>
-            </section>
-
-            <hr class="m-0">
-
-            <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="education">
-                <div class="w-100">
-                  <h2 class="mb-5">Education</h2>
-                  <div class="row item">
-                    <div class="col-md-3 col-sm-5 col-xs-12 item-img">
-                      <a href="https://ucsd.edu/">
-                        <img src="img/ucsd_logo.png" class="img-circle img-responsive" alt="Cinque Terre">
-                      </a>
-                    </div>
-                    <div class="col-md-9 col-sm-7 col-xs-12 item-info">
-                        <div class="resume-item d-flex flex-column flex-md-row justify-content-between">
-                            <div class="resume-content">
-                              <div class="school-title"><b>University of California, San Diego</b></div>
-                              <div class="school-degree"><b>Master of Science</b></div>
-                              <div>Electrical and Computer Engineering - Machine Learning and Data Science</div>
-                              <p>GPA: 3.75/4.00</p>
-                            </div>
-                            <div class="resume-date text-md-right">
-                              <span class="text-primary">September 2018 - Present</span>
-                            </div>
-                          </div>
-                    </div>
-                  </div>
-                  <br>
-                  <div class="row item">
-                    <div class="col-md-3 col-sm-5 col-xs-12 item-img">
-                      <a href="https://www.nctu.edu.tw/">
-                        <img src="img/nctu_logo.png" class="img-circle img-responsive" alt="Cinque Terre">
-                      </a>
-                    </div>
-                    <div class="col-md-9 col-sm-7 col-xs-12 item-info">
-                        <div class="resume-item d-flex flex-column flex-md-row justify-content-between">
-                            <div class="resume-content">
-                              <div class="school-title"><b>National Chiao Tung University</b></div>
-                              <div class="school-degree"><b>Bachelor of Science</b></div>
-                              <div>Electrical Engineering and Computer Science</div>
-                              <p>Rank: 3/28  GPA: 4.05/4.30</p>
-                            </div>
-                            <div class="resume-date text-md-right">
-                              <span class="text-primary">September 2013 - June 2017</span>
-                            </div>
-                          </div>
-                    </div>
-                  </div>
-                  <br>
-                  <div class="row item">
-                    <div class="col-md-3 col-sm-5 col-xs-12 item-img">
-                      <a href="https://illinois.edu/">
-                        <img src="img/uiuc_logo.png" class="img-circle img-responsive" alt="Cinque Terre">
-                      </a>
-                    </div>
-                    <div class="col-md-9 col-sm-7 col-xs-12 item-info">
-                        <div class="resume-item d-flex flex-column flex-md-row justify-content-between">
-                            <div class="resume-content">
-                              <div class="school-title"><b>University of Illinois, Urbana–Champaign</b></div>
-                              <div class="school-degree"><b>Exchange Student</b></div>
-                              <div>Electrical and Computer Engineering</div>
-                              <p>GPA: 3.77/4.00</p>
-                            </div>
-                            <div class="resume-date text-md-right">
-                              <span class="text-primary">August 2016 - December 2016</span>
-                            </div>
-                          </div>
-                    </div>
-                 </div>
-                </div>
-            </section>
-
-            <hr class="m-0">
-
-            <section class="resume-section p-3 p-lg-5 d-flex justify-content-center" id="experience">
-            <div class="w-100">
-                <h2 class="mb-5">Experience</h2>
-
-                <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-                    <div class="resume-content">
-                    <div class="experience-title"><b>Software Engineer Intern (DevOps)</b></div>
-                    <div class="experience-employer"><b>Trend Micro</b></div>
-                    <ul>
-                        <li><p> Achieved 3 kinds of dashboards on Splunk for monitoring the CPU, memory usage, local storage usage, the health of thread, etc. in each endpoint.</p></li>
-                        <li><p> Developed automatic alert system via slack using anomaly detection in Splunk Machine Learning toolkit.</p></li>
-                        <li><p> Expedited problem-solving time about 30% by my Splunk App.</p></li>
-                    </ul>
-                    </div>
-                    <div class="resume-date text-md-right">
-                        <span class="text-primary">July 2019 - August 2019</span>
-                    </div>
-                </div>
-
-                <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-                    <div class="resume-content">
-                    <div class="experience-title"><b>Research Assistant</b></div>
-                    <div class="experience-employer"><b>Communication Electronics and Signal Processing Laboratory, NCTU</b></div>
-                    <ul>
-                        <li><p> Investigated autonomous driving semantic segmentation model using RGB and Depth information..</p></li>
-                        <li><p> Achieved 71.3% mIoU on the Cityscapes dataset with 3.3% improvement over baseline.</p></li>
-                    </ul>
-                    </div>
-                    <div class="resume-date text-md-right">
-                        <span class="text-primary">June 2018 - October 2018</span>
-                    </div>
-                </div>
-
-            </div>
-
-            </section>
-
-            <hr class="m-0">
-
-            <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="skills">
-            <div class="w-100">
-                <h2 class="mb-5">Skills</h2>
-
-                <div class="skill-list"><b>Programming Languages</b></div>
-                <p class="skill mb-5"><span class="tab"></span>Python, C/C++, Java, JavaScript, Node.js, Matlab, R, HTML, CSS</p>
+  <!-- Not required: jquery.min.js and presentational-only.js is only used to demonstrate scrolling behavior of the viewport  -->
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src="presentational-only/presentational-only.js"></script>
   
-                <div class="skill-list"><b>Miscellaneous</b></div>
-                <p class="skill mb-3"><span class="tab"></span>ML/DL: PyTorch, TensorFlow, Sklearn</p>
-                <p class="skill mb-3"><span class="tab"></span>Web: Flask, Django, Bootstrap, Express.js, React(Beginner)</p>
-                <p class="skill mb-3"><span class="tab"></span>Database: MySQL, SQLite, MongoDB</p>
-                <p class="skill mb-3"><span class="tab"></span>Others: OpenCV, Pandas, Linux, Git, Splunk</p>
+</head>
+<body>
 
-                <div class="skill-list"><b>Workflow</b></div>
-                <ul class="fa-ul mb-0">
-                <li>
-                    <i class="fa-li fa fa-check"></i>
-                    <p class="skill">DevOps</p>
-                </li>
-                <li>
-                    <i class="fa-li fa fa-check"></i>
-                    <p class="skill">Agile Development &amp; Scrum</p>
-                </li>
-                </ul>
-            </div>
-            </section>
-
-            <hr class="m-0">
-
-            <section class="resume-section p-3 p-lg-5 d-flex justify-content-center" id="projects">
-            <div class="w-100">
-                <h2 class="mb-5">Projects</h2>
-
-
-                <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-                  <div class="resume-content">
-                  <div class="project-title"><b>React Collections</b></div>
-                  <ul>
-                      <li><p>Expense-Income tracker</p><a href="https://shangweihung.github.io/money-in-pocket/">Demo</a></li>
-                      <li><p>Youtube API video search engine application</p><a href="https://shangweihung.github.io/react-build-youtube/">Demo</a></li>
-                      <li><p>Chocolate club shopping system (fullstack)</p><br>
-                        <video width="400" height="300" controls>
-                          <source src="img/React App.mp4" type="video/mp4">
-                          Demo
-                        </video></li>
-                  </ul>
-                  </div>
-  
-                  <div class="resume-date text-md-right">
-                      <span class="text-primary">March 2020</span>
-                      <br>
-                      [<a href="https://github.com/shangweihung/money-in-pocket">github(Money-in-Pocket)</a>] 
-                      <br>
-                      [<a href="https://github.com/shangweihung/react-build-youtube">github(My-Youtube)</a>]    
-                      <br>
-                      [<a href="https://github.com/shangweihung/react-node-shopping-cart">github(React-Node-Shopping)</a>] 
-                  </div>
-                </div>
-
-
-                <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-                  <div class="resume-content">
-                  <div class="project-title"><b>Hsinchu Foodie Blog</b></div>
-                  <ul>
-                      <li><p> Developed RESTful API through Express.js with searching engine, adding new restaurant and edit restaurant information features.</p></li>
-                      <li><p> Linked application with a NoSQL database designed by myself using MongoDB.</p></li>
-                      <li><p> Developed responsive web design using CSS Bootstrap.</p></li>
-                      <li>
-                        <video width="400" height="300" controls>
-                          <source src="img/restaurant_blog.mp4" type="video/mp4">
-                          Demo
-                        </video>
-                      </li>
-                  </ul>
-                  </div>
-  
-                  <div class="resume-date text-md-right">
-                      <span class="text-primary">March 2020</span>
-                      <br>
-                      [<a href="https://github.com/shangweihung/Restaurant_Blog">github</a>]    
-                  </div>
-                </div>
-
-                <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-                  <div class="resume-content">
-                  <div class="project-title"><b>Shopping Cart API</b></div>
-                  <ul>
-                      <li><p> Developed server side application components through Express.js with member register/login/make order/edit order/order confimation email service.</p></li>
-                      <li><p> Designed MySQL database schema with member, product and order features.</p></li>
-                      <li><p> Utilized Postman to fully examine functionalities</p></li>
-                  </ul>
-                  </div>
-                  <div class="resume-date text-md-right">
-                      <span class="text-primary">March 2020</span>
-                      <br>
-                      [<a href="https://github.com/shangweihung/shopping_cart">github</a>]
-                      
-                  </div>
-                </div>
-
-
-                <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-                  <div class="resume-content">
-                  <div class="project-title"><b>E-Commerce Online Shopping Website</b></div>
-                  <ul>
-                      <li><p> Implemented Model View Control architecture using Django web framework with login/register, shopping cart, order checkout features.</p></li>
-                      <li><p> Developed responsive web design using CSS Bootstrap.</p></li>
-                  </ul>
-                  </div>
-                  <div class="resume-date text-md-right">
-                      <span class="text-primary">February 2020</span>
-                      <br>
-                      [<a href="https://github.com/shangweihung/eCommerce_Web">github</a>]
-                      
-                  </div>
-                </div>
-
-                <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-                    <div class="resume-content">
-                    <div class="project-title"><b>Goodreads Rating and Read Prediction Challenge on Kaggle</b></div>
-                    <ul>
-                        <li><p> Improved about 6% accuracy by implementing collaborative filtering of user and book similarities.</p></li>
-                        <li><p> Formulated the task to pairwise preference prediction solved by latent factor model (SVD algorithm).</p></li>
-                        <li><p> Achieved top 21%/ 28% among 423/ 847 competitors on Rating/ Read Prediction.</p></li>
-                    </ul>
-                    </div>
-                    <div class="resume-date text-md-right">
-                        <span class="text-primary">November 2019</span>
-                        <br>
-                        [<a href="https://github.com/shangweihung/Recommender-System">github</a>]
-                        
-                    </div>
-                </div>
-
-                <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-                    <div class="resume-content">
-                    <div class="project-title"><b>Random Straws Drawer System Web Application</b></div>
-                    <ul>
-                        <li><p> Proposed and Established meeting speaker straws drawer system with adding new member feature/ admin-login feature.</p></li>
-                        <li><p> Designed SQL database schema and linked with Flask REST API.</p></li>
-                        <li><p> Enhanced code readability and simplified functionality augmentation using Jinja2 template engine.</p></li>
-                    </ul>
-                    </div>
-                    <div class="resume-date text-md-right">
-                        <span class="text-primary">August 2019</span>
-                        <br>
-                        [<a href="https://github.com/shangweihung/Random-Straws-Drawer">github</a>]
-                       
-                    </div>
-                </div>
-
-                <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-                    <div class="resume-content">
-                    <div class="project-title"><b>Image Descriptor</b></div>
-                    <ul>
-                        <li><p> Addressed objects missing issue in captions by implementing CNN-LSTM networks and attention mechanism.</p></li>
-                        <li><p> Achieved BLEU-4 score of 0.1968 on the MS COCO dataset.</p></li>
-                    </ul>
-                    </div>
-                    <div class="resume-date text-md-right">
-                        <span class="text-primary">June 2019</span>
-                        <br>
-                        [<a href="files/285_final_Project.pdf">pdf</a>]
-                    </div>
-                </div>
-
-                <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-                    <div class="resume-content">
-                    <div class="project-title"><b>Domain Adaptation on Different Weather Road Scene Segmentation</b></div>
-                    <ul>
-                        <li><p> Incorporated a domain classifier into two-stream FCN8s to align cross-domain features.</p></li>
-                        <li><p> Achieved 5-10 % mIoU improvement in the SYNTHIA dataset.</p></li>
-                    </ul>
-                    </div>
-                    <div class="resume-date text-md-right">
-                        <span class="text-primary">March 2019</span>
-                        <br>
-                        [<a href="files/271B_final_report.pdf">pdf</a>]
-                    </div>
-                </div>
-
-                <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-                    <div class="resume-content">
-                    <div class="project-title"><b>Simultaneous Localization and Mapping & Texture Mapping</b></div>
-                    <ul>
-                        <li><p> Built partical filter to fuse and filter data from odometry, IMU and LIDAR scans to localize household robot.</p></li>
-                        <li><p> Projected RGBD information from Kinect to build 2D map using calibration parameters.</p></li>
-                    </ul>
-                    </div>
-                    <div class="resume-date text-md-right">
-                        <span class="text-primary">February 2019</span>
-                        <br>
-                        [<a href="https://github.com/shangweihung/Simultaneous-Localization-and-Mapping">github</a>]
-                    </div>
-                </div>
-
-            </div>
-            </section>
-            <hr class="m-0">
-
-            <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="publication">
-            <div class="w-100">
-                <h2 class="mb-5">Publication</h2>
-                <div class="row item">
-                    <div class="col-md-4 col-sm-5 col-xs-12 item-img">
-                      <a>
-                        <img src="img/LDFNet_Structure.png" class="img-thumbnail img-responsive">
-                      </a>
-                    </div>
-                    <div class="col-md-8 col-sm-7 col-xs-12 item-info">
-                      <div class="paper"><b>Incorporating Luminance, Depth and Color Information by a Fusion-based Network for Semantic Segmentation</b></div>
-                      <div class="author"><b>Shang-Wei Hung</b> , Shao-Yuan Lo, Hsueh-Ming Hang</div>
-                      <div class="conf"> IEEE International Conference on Image Processing <b>(ICIP)</b>, 2019
-                            [<a href="https://arxiv.org/abs/1809.09077">pdf</a>]
-                            [<a href="https://github.com/shangweihung/LDFNet" target="blank">website</a>]
-                      </div>
-                      <div class="tag">
-                        <span class="label label-success">Conference paper</span>
-                      </div>
-                    </div>
-                </div>
-
-            </div>
-            </section>
-
-            <hr class="m-0">
-
-            <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="extra">
-            <div class="w-100">
-                <h2 class="mb-5">Leadership</h2>
-                <div>
-                    <div class="resume-item d-flex flex-column flex-md-row justify-content-between">
-                        <div class="resume-content">
-                            <div class="leader"><b>General Coordinator of 2016 E.E.C.S. Summer Camp</b></div>
-                            <div class="leader-detail">Coordinated a 6-day, 120-person summer camp event; supervised preparation.</div> 
-                        </div>
-                        <div class="resume-date text-md-right">
-                            <span class="text-primary">October 2015 - July 2016</span>
-                        </div>
-                      </div>
-                    
-                </div>
-                <div>
-                    <div class="row item">
-                        <div class="col-md-4 col-sm-5 col-xs-12 item-img">
-                          <a>
-                            <img width="450%" src="img/leader.png" class="img-thumbnail img-responsive">
-                          </a>
-                        </div>
-                        <div class="col-md-8 col-sm-7 col-xs-12 item-img">
-                          <a>
-                            <img width="450%" src="img/leader_group.png" class="img-thumbnail img-responsive">
-                          </a>
-                        </div>
-                    </div>
-                    
-                </div>
-
-            </div>
-            </section>
-
-            <!-- START FOOTER DARK-->
-            <footer class="navbar navbar-default navbar-static-bottom">
-              <div class="container">
-                <p class="text-center">Copyright © Shang-Wei Hung</p>
-              </div>
-            </footer>
-            <!-- START FOOTER DARK-->
-
-
-  <!-- Bootstrap core JavaScript -->
-  <script src="vendor/jquery/jquery.min.js"></script>
-  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-
-  <!-- Plugin JavaScript -->
-  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
-
-  <!-- Custom scripts for this template -->
-  <script src="js/resume.min.js"></script>
-
-
-    </body>
+  <header class="container">
+    <section class="content">
+      <h1 style="font-weight: 700; color:black"><small>I'm</small>
+        <span
+           style="color:rgb(99, 90, 90) ; font-size:50px;"
+           class="txt-rotate"
+           data-period="1500"
+           data-rotate='[ "Shang-Wei.", "Shang-Wei."]'>
+        </span>
+      </h1>
+      <br><br>
+      <p><a class="button" id="load-more-content" href="./mypage.html">About Me</a></p>
+    </section>
+  </header>
 
 
 
+  <script>
+    var TxtRotate = function(el, toRotate, period) {
+    this.toRotate = toRotate;
+    this.el = el;
+    this.loopNum = 0;
+    this.period = parseInt(period, 10) || 2000;
+    this.txt = '';
+    this.tick();
+    this.isDeleting = false;
+  };
+
+  TxtRotate.prototype.tick = function() {
+    var i = this.loopNum % this.toRotate.length;
+    var fullTxt = this.toRotate[i];
+
+    if (this.isDeleting) {
+      this.txt = fullTxt.substring(0, this.txt.length - 1);
+    } else {
+      this.txt = fullTxt.substring(0, this.txt.length + 1);
+    }
+
+    this.el.innerHTML = '<span class="wrap">'+this.txt+'</span>';
+
+    var that = this;
+    var delta = 300 - Math.random() * 100;
+
+    if (this.isDeleting) { delta /= 2; }
+
+    if (!this.isDeleting && this.txt === fullTxt) {
+      delta = this.period;
+      this.isDeleting = true;
+    } else if (this.isDeleting && this.txt === '') {
+      this.isDeleting = false;
+      this.loopNum++;
+      delta = 500;
+    }
+
+    setTimeout(function() {
+      that.tick();
+    }, delta);
+  };
+
+  window.onload = function() {
+    var elements = document.getElementsByClassName('txt-rotate');
+    for (var i=0; i<elements.length; i++) {
+      var toRotate = elements[i].getAttribute('data-rotate');
+      var period = elements[i].getAttribute('data-period');
+      if (toRotate) {
+        new TxtRotate(elements[i], JSON.parse(toRotate), period);
+      }
+    }
+    // INJECT CSS
+    var css = document.createElement("style");
+    css.type = "text/css";
+    css.innerHTML = ".txt-rotate > .wrap { border-right: 0.08em solid #666 }";
+    document.body.appendChild(css);
+  };
+  </script>
+</body>
 </html>
