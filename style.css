@@ -2567,7 +2567,7 @@ video {
     
     
     /* Image is centered vertically and horizontally at all times */
-    background-position: center center;
+    background-position: bottom center;
     
     /* Image doesn't repeat */
     background-repeat: no-repeat;
@@ -2607,7 +2607,7 @@ Intro
     height: 100vh;
     background-image: url('uploads/banner-01.jpg');
      /* Image is centered vertically and horizontally at all times */
-    background-position: center center;
+    background-position: bottom center;
     
      /* Image doesn't repeat */
     background-repeat: no-repeat;
