@@ -2577,7 +2577,7 @@ video {
     background-attachment: fixed;
     
     /* This is what makes the background image rescale based on its container's size */
-    background-size: cover;
+    background-size: contain;
     
     /* Pick a solid background color that will be displayed while the background image is loading */
     background-color:#bd5d38;
@@ -2589,11 +2589,12 @@ video {
   
   /* For mobile devices */
   @media only screen and (max-width: 767px) {
-    #home {
+    #intro {
       /* The file size of this background image is 93% smaller
        * to improve page load speed on mobile internet connections */
-      background-image: url('uploads/banner-01_mobile.jpg');
-      
+       display: block;
+       background-image: url('uploads/banner-01_mobile.jpg');
+    
     }
 }
 
