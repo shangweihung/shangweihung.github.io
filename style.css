@@ -2561,7 +2561,14 @@ video {
 
 
 
-#home {
+
+
+/* ================================
+Intro
+================================= */
+
+#intro {
+
     /* Location of the image */
     background-image: url('uploads/banner-01.jpg');
     
@@ -2577,7 +2584,7 @@ video {
     background-attachment: fixed;
     
     /* This is what makes the background image rescale based on its container's size */
-    background-size: contain;
+    background-size: cover;
     
     /* Pick a solid background color that will be displayed while the background image is loading */
     background-color:#bd5d38;
@@ -2596,29 +2603,6 @@ video {
     
     }
 }
-
-/* ================================
-Intro
-================================= */
-
-#intro {
-    width: 100%;
-    height: 100vh;
-    background-image: url('uploads/banner-01.jpg');
-     /* Image is centered vertically and horizontally at all times */
-    background-position: bottom center;
-    
-     /* Image doesn't repeat */
-    background-repeat: no-repeat;
-     
-     /* Makes the image fixed in the viewport so that it doesn't move when 
-        the content height is greater than the image height */
-    background-attachment: fixed;
-     
-     /* This is what makes the background image rescale based on its container's size */
-    background-size: cover;
-    background-color: rgba(0, 0, 0, 0.3);
-  }
   
   #intro .item {
     width: 100%;
