@@ -566,6 +566,24 @@ xclip
 }
 
 
+.btn-hover-about{
+	color: #ffffff;
+	-webkit-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	-o-transition: all 0.5s;
+	transition: all 0.5s;
+	position: relative;
+	border: 1px solid #ffffff;
+	overflow: hidden;
+	padding: 0px 18px;
+	display: inline-block;
+}
+.btn-hover-about:hover{
+	color: #333333;
+	background-color:  #ffffff;
+}
+
+
 
 .btn-hover-new{
 	color: #333333;
