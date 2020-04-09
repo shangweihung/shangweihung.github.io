@@ -2529,6 +2529,10 @@ video {
     .gallery-grid{
         margin-top: 4em;
     }
+
+    .services-inner-box {
+        padding-bottom: 60px;
+    }
 }
 /* md */
 @media (min-width: 992px) {
